@@ -1,1 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@import url("reset.css");
+
+a {
+  text-decoration: none;
+}
+
+.author-text {
+  width: 526px;
+  margin-left: 77px;
+}
+
+.author-text p {
+  margin-bottom: 30px;
+}
+
+.button-blue {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #fafbef;
+  line-height: 2.2rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  background-color: #395661;
+}
+
+.button-yellow {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #161616;
+  line-height: 2.2rem;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  background-color: #E09B14;
+}
+
+#calendar {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1186px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 107px 72px 107px 182px; 
+  background-color: #E09B14;
+}
+
+.calendar-text {
+  width: 482px;
+}
+
+.calendar-text li {
+  list-style-type: disc;
+  width: 185px;
+  margin-left: 30px;
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+.calendar-photo {
+  width: 635px;
+  height: 392px;
+}
+
+#featured {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fafbef;
+  padding-bottom: 48px;
+}
+
+#featured h2 {
+  margin-left: 182px;
+  margin-bottom: 85px;
+  padding-top: 90px;
+}
+
+.featured-container {
+  display: flex;
+  margin-left: 182px;
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 6rem;
+  color: #fafbef;
+  line-height: 6.6rem;
+  margin-left: 385px;
+  padding-top: 252px;
+  margin-bottom: 80px;
+  width: 670px;
+}
+
+h2 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.8rem;
+  color: #161616;
+  line-height: 5.28rem;
+  margin-bottom: 19px;
+}
+
+h3 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.2rem;
+  color: #161616;
+  line-height: 3.52rem;
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
+#hero {
+background-image: url(images/hero.png);
+width: 1440px;
+height: 792px;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+}
+
+.hero-button {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #161616;
+  line-height: 2.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  background-color: #E09B14;
+  margin-left: 630px;
+}
+
+html {
+  font-size: 10px;
+}
+
+nav {
+  background-color: #fafbef;
+  width: 1440px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .button-yellow {
+  margin-left: 0px;
+}
+
+nav .logo {
+  margin-left: 72px;
+}
+
+nav li a {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #161616;
+  line-height: 2.2rem;
+  text-decoration: none;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 630px;
+  margin-right: 93px;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #161616;
+  line-height: 2.34rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-end {
+  padding-bottom: 36px;
+}
