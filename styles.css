@@ -2,17 +2,59 @@
 
 @import url("reset.css");
 
+/* animation stuff */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+body {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.button-blue {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+.button-yellow {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+h1 {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+h2 {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+h3 {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+.hero-button {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+
+nav {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* desktop code*/
+
 a {
   text-decoration: none;
 }
 
 .author-text {
-  width: 526px;
-  margin-left: 77px;
+  width: 52.6rem;
+  margin-left: 7.7rem;
 }
 
 .author-text p {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .button-blue {
@@ -27,8 +69,18 @@ a {
   padding-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-radius: 5px;
+  border-radius: .5rem;
   background-color: #395661;
+}
+
+.button-blue:hover {
+  font-size: 2rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.button-blue:active {
+  font-size: 1.8rem;
+  transition: font-size 0.3s ease-in-out;
 }
 
 .button-yellow {
@@ -43,56 +95,152 @@ a {
   padding-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-radius: 5px;
+  border-radius: .5rem;
   background-color: #E09B14;
+}
+
+.button-yellow:hover {
+  font-size: 2rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.button-yellow:active {
+  font-size: 1.8rem;
+  transition: font-size 0.3s ease-in-out;
 }
 
 #calendar {
   display: flex;
   flex-direction: row-reverse;
-  width: 1186px;
+  width: 118.6rem;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  padding: 107px 72px 107px 182px; 
+  padding: 10.7rem 7.2rem 10.7rem 18.2rem; 
   background-color: #E09B14;
 }
 
 .calendar-text {
-  width: 482px;
+  width: 48.2rem;
 }
 
 .calendar-text li {
   list-style-type: disc;
-  width: 185px;
-  margin-left: 30px;
-  margin-bottom: 34px;
-  margin-top: 34px;
+  width: 18.5rem;
+  margin-left: 3rem;
+  margin-bottom: 3.4rem;
+  margin-top: 3.4rem;
 }
 
 .calendar-photo {
-  width: 635px;
-  height: 392px;
+  width: 63.5rem;
+  height: 39.2rem
+}
+
+.copyright {
+  margin-top: 11.1rem;
+}
+
+.cta-card {
+  display: flex;
+  width: 130rem;
+  justify-content: space-between;
+  background-color: #E09B14;
+  padding: 12.3rem 7.2rem 15.7rem 7.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-text {
+  padding-top: 2rem;
+  width: 52.6rem;
+}
+
+.cta-text p {
+  width: 45rem;
+  margin-bottom: 3.5rem;
+  margin-left: 0rem;
 }
 
 #featured {
-  width: 1440px;
+  width: 144rem;
   margin-left: auto;
   margin-right: auto;
   background-color: #fafbef;
-  padding-bottom: 48px;
+  padding-bottom: 4.8rem;
 }
 
 #featured h2 {
-  margin-left: 182px;
-  margin-bottom: 85px;
-  padding-top: 90px;
+  margin-left: 18.2rem;
+  margin-bottom: 8.5rem;
+  padding-top: 9rem;
 }
 
 .featured-container {
   display: flex;
-  margin-left: 182px;
-  margin-bottom: 80px;
+  margin-left: 18.2rem;
+  margin-bottom: 8rem;
+}
+
+footer {
+  width: 144rem;
+  background-color: #395661;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 107.6rem;
+}
+
+footer h3 {
+  color: #fafbef;
+}
+
+.footer-left {
+  display: flex;
+  flex-flow: column;
+  height: 25.2rem;
+  justify-content: space-between;
+}
+
+.footer-left a {
+  text-align: center;
+}
+
+.footer-logo {
+  width: 15.1rem;
+  background-color: #fafbef;
+  border-radius: .5rem;
+  padding: .9rem 7.7rem .8rem 7.7rem;
+}
+
+.footer-middle {
+  width: 20.6rem;
+}
+footer p {
+  color: #fafbef;
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+}
+
+.footer-right {
+  width: 19.5rem;
+  height: 21.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.footer-right a {
+  text-align: center;
+  padding: 3.2rem 5rem 3.2rem 5rem;
 }
 
 h1 {
@@ -103,10 +251,10 @@ h1 {
   font-size: 6rem;
   color: #fafbef;
   line-height: 6.6rem;
-  margin-left: 385px;
-  padding-top: 252px;
-  margin-bottom: 80px;
-  width: 670px;
+  margin-left: 38.5rem;
+  padding-top: 25.2rem;
+  margin-bottom: 8rem;
+  width: 67rem;
 }
 
 h2 {
@@ -116,7 +264,7 @@ h2 {
   font-size: 4.8rem;
   color: #161616;
   line-height: 5.28rem;
-  margin-bottom: 19px;
+  margin-bottom: 1.9rem;
 }
 
 h3 {
@@ -126,17 +274,18 @@ h3 {
   font-size: 3.2rem;
   color: #161616;
   line-height: 3.52rem;
-  margin-bottom: 17px;
-  margin-top: 10px;
+  margin-bottom: 1.7rem;
+  margin-top: 1rem;
 }
 
 #hero {
 background-image: url(images/hero.png);
-width: 1440px;
-height: 792px;
+width: 144rem;
+height: 79.2rem;
 margin-left: auto;
 margin-right: auto;
 background-repeat: no-repeat;
+margin-top: 12rem;
 }
 
 .hero-button {
@@ -150,32 +299,45 @@ background-repeat: no-repeat;
   padding-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-radius: 5px;
+  border-radius: .5rem;
   background-color: #E09B14;
-  margin-left: 630px;
+  margin-left: 63rem;
 }
 
 html {
   font-size: 10px;
 }
 
+#menu {
+  display:none;
+}
+
+#mobile-menu {
+  display: none;
+}
+
 nav {
   background-color: #fafbef;
-  width: 1440px;
-  height: 120px;
+  width: 144rem;
+  height: 12rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  position: fixed;   
+  top: 0;            
+  width: 100%;      
+  z-index: 1000;    
+  }
+  
 
 nav .button-yellow {
-  margin-left: 0px;
+  margin-left: 0rem;
 }
 
 nav .logo {
-  margin-left: 72px;
+  margin-left: 7.2rem;
 }
 
 nav li a {
@@ -191,8 +353,8 @@ nav li a {
 .nav-right ul {
   display: flex;
   justify-content: space-between;
-  width: 630px;
-  margin-right: 93px;
+  width: 63rem;
+  margin-right: 7.2rem;
 }
 
 p {
@@ -207,5 +369,260 @@ p {
 }
 
 .p-end {
-  padding-bottom: 36px;
+  padding-bottom: 3.6rem;
+}
+
+.social-media {
+  display: flex;
+  width: 19.5rem;
+  justify-content: space-between;
+}
+
+/* Small devices such as phones (480px and below) */
+@media only screen and (max-width: 480px) {
+
+  body {
+    width: 100%;
+  }
+
+  html {
+    font-size: 62.5%;
+  }  
+
+  h2 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    margin: 0rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+  }
+
+/* nav */
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  nav .logo img {
+    margin-left: 0rem;
+    width: 9.9rem;
+    height: auto;
+  }
+  
+  nav .logo {
+    margin-left: 2rem;
+  }
+
+  #menu {
+    display: inline;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+  #menu:active {
+    width: 4.5rem;
+    transition: width 0.3s ease in;
+  }
+
+/* nav mobile menu */
+
+  /* I genuinely cannot figure this menu out */
+
+/* hero */
+
+#hero {
+  width: 100%;
+  height: 24.2rem;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 12.7%;
+  margin-top: 12.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5.5rem;
+  width: 89.8%;
+  margin-bottom: 4.5rem;
+}
+
+.hero-button {
+  margin-left: 4.5%;
+  padding: 1.5rem 27.2% 1.5rem 27.2%;
+}
+
+
+/* 1st section - calendar */
+
+#calendar {
+  width: 100%;
+  height: 68.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0rem;
+  padding-bottom: 4.2rem;
+}
+
+#calendar .button-blue {
+  width: 100%;
+  padding: 2.2rem 19.8% 2.2rem 19.8%;
+}
+
+#calendar h2 {
+  margin-bottom: 1.5rem;
+}
+
+.calendar-text {
+  width: 90%;
+  height: 36.5rem;
+  margin-left: 5.1%;
+  margin-top: 0rem;
+}
+
+.calendar-photo {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.calendar-photo img {
+  width: 100%;
+}
+
+/* 2nd section - featured authors */
+
+.author-photo {
+  margin-left: 2rem;
+}
+
+.author-text {
+  width: 89.6%;
+  margin-left: 2rem;
+}
+
+.author-text p {
+  margin-left: 0rem;
+  margin-bottom: 6rem;
+}
+
+#featured {
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+#featured .button-blue {
+  padding-left: 35.2%;
+  padding-right: 35.2%;
+}
+
+.featured-container {
+  flex-flow: column;
+  margin-left: 0rem;
+}
+
+#featured h2 {
+  margin-left: 2rem;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.64rem;
+  margin-top: 2rem;
+}
+
+/* 3rd section - cta */
+
+.cta-card {
+  width: 100%;
+  flex-flow: column;
+  padding: 0rem 0rem 9rem 0rem;
+}
+
+.cta-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.cta-text {
+  width: 89.6%;
+  margin-left: 2rem;
+}
+
+.cta-text h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-text p {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.cta-card .button-blue {
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+}
+
+/* footer */
+
+.copyright {
+  margin-top: 6.4rem;
+  margin-bottom: 4.2rem;
+}
+
+footer {
+  width: 100%;
+  padding-top: 3.7rem;
+}
+
+footer .button-yellow {
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
+  margin-top: 1.2rem
+}
+
+.footer-logo {
+  width: 42.7%;
+  padding: 1.6rem 28.65% 1.6rem 28.65%;
+}
+
+.footer-container {
+  width: 89.6%;
+  padding: 0rem;
+  flex-flow: column;
+}
+
+footer h3 {
+  margin-top: 6.5rem;
+}
+
+.footer-middle {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-right {
+  height: 18.4rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.social-media {
+  align-self: center;
+}
+
 }
